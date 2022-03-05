@@ -5,9 +5,6 @@ const client = new discord.Client({
   allowedMentions: { parse: ["users", "roles"], repliedUser: true }
 });
 
-const keepAlive = require("./server.js");
-keepAlive();
-
 const guild = client.guilds.cache.get("851185884678324224");
 
 client.commands = new discord.Collection();

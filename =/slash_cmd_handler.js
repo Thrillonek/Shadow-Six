@@ -49,5 +49,5 @@ module.exports = (client, discord) => {
       }
     })
   }
-  ['info', 'moderation', 'util'].forEach(x => load_dir(x));
+  ['info', 'moderation'].forEach(x => load_dir(x));
 }

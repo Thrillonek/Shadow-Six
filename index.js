@@ -10,8 +10,8 @@ const guild = client.guilds.cache.get("851185884678324224");
 client.commands = new discord.Collection();
 client.cooldown = new discord.Collection();
 
-['command_handler', 'event_handler', 'slash_cmd_handler'].forEach(handler =>{
-    require(`./=/${handler}`)(client, discord);
+[/*'command_handler',*/ 'event_handler', 'slash_cmd_handler'].forEach(handler =>{
+  require(`./=/${handler}`)(client, discord);
 });
 
 client.login(process.env.TOKEN);

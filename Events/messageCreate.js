@@ -1,5 +1,5 @@
 module.exports = async (client, discord, message) => {
-    const prefix = process.env.PREFIX
+    const prefix = "="
   
     if(message.author.bot) return;
   

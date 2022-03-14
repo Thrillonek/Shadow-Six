@@ -1,5 +1,4 @@
 const economy = require('../../schemas/eco-schema');
-const mongo = require('../../mongo');
 
 module.exports = {
   name: 'test',

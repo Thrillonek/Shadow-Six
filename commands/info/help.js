@@ -13,7 +13,6 @@ module.exports = {
           {name: 'Moderation příkazy', value: 'Zareaguj na ❗'},
           {name: 'Zpět sem, na hl. stránku help', value: 'Zareaguj na 📃'}
       )
-      .setFooter('Bot made by Thrillonek & masterli9');
 
       const moderation = new MessageEmbed()
       .setTitle('List příkazů na moderaci:')
